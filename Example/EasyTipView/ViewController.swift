@@ -126,6 +126,7 @@ class ViewController: UIViewController, EasyTipViewDelegate {
             preferences.animating.showDuration = 1
             preferences.animating.dismissDuration = 1
             preferences.drawing.arrowPosition = .top
+            preferences.animating.duration = 1
             
             let text = "Tip view inside the navigation controller's view. Tap to dismiss!"
             EasyTipView.show(forView: self.buttonB,
